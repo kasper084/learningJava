@@ -1,11 +1,13 @@
 package figures;
 
+import pattern.FigureList;
+
 public class Triangle extends FigureList {
-    double weight = 3.2;
+    double width = 3.2;
     double height = 4.1;
 
     public double getArea() {
-        double area = (height * weight)/2;
+        double area = (height * width)/2;
         return area;
     }
 

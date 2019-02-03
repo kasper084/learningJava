@@ -13,6 +13,10 @@ public class Capacity implements BatterySize{
         return speed;
     }
 
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
+
     public double getTime() {
         return time;
     }

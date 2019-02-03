@@ -1,8 +1,11 @@
 package figures;
 
-public class Square extends FigureList{
-    double weight = 3.2;
+import pattern.FigureList;
+
+public class Square extends FigureList {
+
     double height = 4.1;
+
     public double getArea(){
         double area = height * height;
         return area;

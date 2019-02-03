@@ -3,10 +3,11 @@ package electrocar;
 public class Tesla extends Electrocar{
 
     public Tesla() {
+        Capacity capacity = new Capacity();
         Electrocar tesla = new Electrocar();
         setOn();
-        setClimateOn();
     }
+
 
     public String getNumber() {
         String number = "%s";
@@ -27,7 +28,7 @@ public class Tesla extends Electrocar{
         return batterySize;
     }
 
-    public double getSpeed() {
+    public double setSpeed() {
         double speed = 120;
         return speed;
     }

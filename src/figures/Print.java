@@ -10,8 +10,8 @@ public class Print {
 
 
     public static void main(String[] args) {
-        Print uneven = new Print();
-        getPrinted(uneven.getHeight(), uneven.getWidth());
+        Print right = new Print();
+        getPrinted(right.getHeight(), right.getWidth());
 
         /*
         Print rectangle = new Print();
@@ -39,18 +39,20 @@ public class Print {
     }
 
     public int getWidth() {
-              /* piramids
+        /* piramids
         width = 2 * height - 3;*/
-
-        /* rectangle
-        System.out.println("Enter width");
+        //rectangle
+        // System.out.println("Enter width");
         width = numbers.nextInt();
-        */
-            return width;
+        return width;
 
     }
 
     public static void getPrinted(int height, int width) {
+
+
+        //right
+
 
        /* //revpiramid
        for (int row = height - 2; row >= -1; row--) {
