@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ebc9eb3-1352-47f5-89a8-12a1079e2ed5" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/fantom/Antena.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fantom/IPhone.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fantom/IPhone5.java" afterDir="false" />
@@ -23,6 +24,13 @@
       <change beforePath="$PROJECT_DIR$/src/figures/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figures/Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/figures/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figures/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/figures/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/figures/Triangle.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj/student/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj/student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj/student/StudentList.class" beforeDir="false" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
       <change beforePath="$PROJECT_DIR$/src/student/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/Monitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/StudentList.java" afterDir="false" />
     </list>
@@ -44,15 +52,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/figures/Area.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/student/StudentList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/figures/BigSquare.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -66,19 +93,48 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/student/Monitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/figures/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/student/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+              </folding>
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pattern/FigureList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,6 +165,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -130,6 +188,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/figures/Height.java" />
+        <option value="$PROJECT_DIR$/src/figures/FigureList.java" />
+        <option value="$PROJECT_DIR$/src/figures/BigSquare.java" />
+        <option value="$PROJECT_DIR$/src/electrocar/Culpability.java" />
+        <option value="$PROJECT_DIR$/src/electrocar/Сars.java" />
+        <option value="$PROJECT_DIR$/src/electrocar/Cars.java" />
+        <option value="$PROJECT_DIR$/src/electrocar/Battery.java" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
         <option value="$PROJECT_DIR$/src/electrocar/ElectroCar.java" />
         <option value="$PROJECT_DIR$/src/cars/Climate.java" />
         <option value="$PROJECT_DIR$/src/cars/CarList.java" />
@@ -164,9 +232,15 @@
         <option value="$PROJECT_DIR$/src/student/Studentlist.java" />
         <option value="$PROJECT_DIR$/src/data/Monitor.java" />
         <option value="$PROJECT_DIR$/src/student/Student.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/student/ArrayList.java" />
         <option value="$PROJECT_DIR$/src/student/ArrList.java" />
         <option value="$PROJECT_DIR$/src/student/Monitor.java" />
+=======
+        <option value="$PROJECT_DIR$/src/student/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/student/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/student/ArrList.java" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
         <option value="$PROJECT_DIR$/src/student/StudentList.java" />
         <option value="$PROJECT_DIR$/src/electrocar/Capacity.java" />
         <option value="$PROJECT_DIR$/src/electrocar/Tesla.java" />
@@ -222,6 +296,7 @@
               <item name="fj" type="b2602c69:ProjectViewProjectNode" />
               <item name="fj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="figures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +304,9 @@
               <item name="fj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
             </path>
           </expand>
           <select />
@@ -418,6 +496,7 @@
       <option name="project" value="LOCAL" />
       <updated>1548780923611</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00012" summary="some changes">
       <created>1548785974256</created>
       <option name="number" value="00012" />
@@ -426,6 +505,9 @@
       <updated>1548785974257</updated>
     </task>
     <option name="localTasksCounter" value="13" />
+=======
+    <option name="localTasksCounter" value="12" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
     <servers />
   </component>
   <component name="TodoView">
@@ -440,14 +522,18 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.17549168" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.1709531" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.12708019" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.502439" side_tool="true" weight="0.12708019" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5378215" visible="true" weight="0.30114567" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5378215" weight="0.30114567" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5794251" weight="0.29787233" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,10 +634,23 @@
     <MESSAGE value="27" />
     <MESSAGE value="push it already" />
     <MESSAGE value="add student" />
+<<<<<<< HEAD
     <MESSAGE value="some changes" />
     <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="editorHistoryManager">
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="add student" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/electrocar/Battery.java" />
+    <entry file="file://$PROJECT_DIR$/src/cars/Climate.java" />
+    <entry file="file://$PROJECT_DIR$/src/cars/CarList.java" />
+    <entry file="file://$PROJECT_DIR$/src/cars/Engine.java" />
+    <entry file="file://$PROJECT_DIR$/src/cars/Cars.java" />
+    <entry file="file://$PROJECT_DIR$/src/electrocar/Climate.java" />
+    <entry file="file://$PROJECT_DIR$/src/semi.java" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
     <entry file="file://$PROJECT_DIR$/src/figures/peint.java" />
     <entry file="file://$USER_HOME$/Downloads/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,6 +846,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/electrocar/Electrocar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -764,6 +864,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
     <entry file="file://$PROJECT_DIR$/src/electrocar/Nissan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -841,6 +943,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/electrocar/BatterySize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -855,10 +958,26 @@
           <folding>
             <element signature="e#690#691#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/electrocar/Electrocar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/figures/Area.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -870,11 +989,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/student/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/student/ArrList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/figures/Square.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="85">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
@@ -905,8 +1042,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+=======
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+>>>>>>> a6dc562516a4f862aec67d0991df386f2e0460b0
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/student/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/student/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
           </folding>
         </state>
       </provider>
