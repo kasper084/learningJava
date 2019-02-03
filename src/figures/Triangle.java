@@ -1,7 +1,5 @@
 package figures;
 
-import pattern.FigureList;
-
 public class Triangle extends FigureList {
     double width = 3.2;
     double height = 4.1;

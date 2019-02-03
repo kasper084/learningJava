@@ -1,4 +1,4 @@
-package figures;
+package pattern;
 
 import java.util.Scanner;
 

@@ -1,8 +1,6 @@
 package figures;
 
-import pattern.FigureList;
-
-public class Circle extends FigureList {
+public class Circle extends FigureList{
     double width = 3.2;
     double height = 4.1;
 

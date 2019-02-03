@@ -1,7 +1,5 @@
 package figures;
 
-import pattern.FigureList;
-
 public class Square extends FigureList {
 
     double height = 4.1;
