@@ -22,6 +22,6 @@ public abstract class FigureList extends Figures {
                 kids ++;
             }
         }
-        System.out.println(kids);
+        System.out.println("Figures class is parent for " + kids + " classes");
     }
 }
