@@ -1,8 +1,6 @@
 package figures;
 
-public class Circle extends FigureList{
-    double width = 3.2;
-    double height = 4.1;
+public class Circle extends Figures{
 
     public double getArea() {
         double radius = width + height;

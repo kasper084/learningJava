@@ -8,25 +8,9 @@ public class Electrocar extends Capacity {
     private double powerUse;
 
     public Electrocar(){
-        setOn();
-        if (isOn()) {
-            if (getSpeed() >= 100 && setClimateOn(true)) {
-                powerUse = getPowerUse() * 1.1;
-            }
 
-            if (getSpeed() <= 80 && setClimateOn(true)) {
-                powerUse = getPowerUse() * 0.9;
-            }
+        this.name = name;
 
-            if (getBatterySize() > 0) {
-
-            }
-
-            if (getBatteryLeft() <= getBatterySize() / 2) {
-                setOff();
-            }
-        }
-        setOff();
     }
 
     public double getPowerUse() {

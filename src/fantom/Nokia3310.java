@@ -9,11 +9,6 @@ public class Nokia3310 extends Phone {
         screenSize = 2;
     }
 
-    /*@Override
-    public void setPhoneNumber(String phoneNumbe) {
-        phoneNumber = "0001";
-    }
-*/
     @Override
     public void call(String number) {
         super.call(number);
@@ -26,6 +21,6 @@ public class Nokia3310 extends Phone {
 
     @Override
     public void heyPhoneIsCalling() {
-        System.out.println("Nokia3310 answered");
+        System.out.println("hi!");
     }
 }

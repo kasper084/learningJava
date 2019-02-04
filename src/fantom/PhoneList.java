@@ -17,7 +17,7 @@ public class PhoneList {
         System.out.println("IPhone5 screen size: " + iphone5.getScreenSize());
         iphone5.call("123-45-67");
         iphone5.sendSMS("567-78-89", "text message");
-        System.out.println(nokia.getNumberOfCalls() + " " + nokia.getNumberOfSMS());
-        System.out.println(iphone.getNumberOfCalls()+ " " + iphone.getNumberOfSMS());
+        Antena antena = new Antena();
+        System.out.println(antena.getNumberOfCalls() + " " + antena.getNumberOfSMS());
     }
 }

@@ -23,6 +23,7 @@ public class Tesla extends Electrocar{
         return true;
     }
 
+    @Override
     public double getBatterySize() {
         double batterySize = 5000;
         return batterySize;

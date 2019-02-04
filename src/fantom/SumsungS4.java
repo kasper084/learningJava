@@ -12,6 +12,7 @@ public class SumsungS4 extends Phone {
 
     @Override
     public void heyPhoneIsCalling() {
+        System.out.println("hi!");
 
     }
 }

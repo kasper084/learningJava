@@ -19,6 +19,7 @@ public class Nissan extends Electrocar{
         return true;
     }
 
+    @Override
     public double getBatterySize() {
         double batterySize = 3500;
         return batterySize;

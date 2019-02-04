@@ -7,6 +7,20 @@ public class Capacity implements BatterySize{
     private double powerUse;
 
     public Capacity() {
+            if (getSpeed() >= 100 && setClimateOn(true)) {
+                powerUse = getPowerUse() * 1.1;
+            }
+
+            if (getSpeed() <= 80 && setClimateOn(true)) {
+                powerUse = getPowerUse() * 0.9;
+            }
+
+            if (getBatterySize() > 0) {
+
+            }
+
+            if (getBatteryLeft() <= getBatterySize() / 2) {
+            }
     }
 
     public double getSpeed() {
@@ -21,6 +35,7 @@ public class Capacity implements BatterySize{
         return time;
     }
 
+    @Override
     public double getBatterySize() {
         return 0;
     }

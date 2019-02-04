@@ -33,9 +33,6 @@ public abstract class Phone {
         return numberOfSMS;
     }
 
-    public void setPhoneNumber(String number) {
-        this.number = number;
-    }
 
     public void call(String number) {
         System.out.println("Phone class is calling " + number);

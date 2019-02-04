@@ -2,18 +2,14 @@ package fantom;
 
 public class Antena extends Phone{
     public void call() {
-        String [] numberBase = new String[10];
-        numberBase[0] = ("0001");
-        numberBase[1] = ("0002");
-        numberBase[2] = ("0003");
-        numberBase[3] = ("0004");
-
-        String number;
-        for (int fill = 0; fill < numberBase.length; fill++) {
-            number = numberBase[fill];
-            if (numberBase[fill].equals(number)) {
-                heyPhoneIsCalling();
+        String [] numberBase = new String[4];
+        Phone[] phones = new Phone[4];
+        
+        for (int startCalling = 0; startCalling < numberBase.length; startCalling++) {
+            if (numberBase[startCalling].equals(number)) {
+                phones[startCalling].heyPhoneIsCalling();
             }
+
         }
 
     }

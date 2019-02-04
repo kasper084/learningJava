@@ -1,8 +1,6 @@
 package figures;
 
-public class Square extends FigureList {
-
-    double height = 4.1;
+public class Square extends Figures {
 
     public double getArea(){
         double area = height * height;
