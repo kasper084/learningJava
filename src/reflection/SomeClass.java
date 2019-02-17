@@ -11,9 +11,4 @@ public class SomeClass {
         ArrayList<Integer> integerArr = new ArrayList<>();
         String tryToChangeMe = "You`r never be able to";
     }
-
-    private void addToArray() {
-
-    }
-
 }
