@@ -1,4 +1,6 @@
-package annotation;
+package reflection;
+
+import annotation.SuspiciousAnnotation;
 
 class HeyCheckMyAnnotation {
 
