@@ -11,8 +11,9 @@ public class LetsTry  {
         some.setArr((int[]) Array.newInstance(int.class, some.tryToChangeMe.length()));
         String ssc = Serialized.serialized(some);
         String dsc = Serialized.deserialized(some);
-        System.out.println(ssc.getBytes().length + "bytes" + "\t\\(o_o)/\t" +
-                dsc.getBytes().length + "bytes");
+        System.out.println(ssc.getBytes().length +
+                "\t\\(o_o)/\t" +
+                dsc.getBytes().length);
     }
 }
 
