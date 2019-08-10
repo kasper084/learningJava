@@ -10,9 +10,4 @@ public class SumsungS4 extends Phone {
         System.out.println("SumsungS4 class is sending sms " + message + "Hallo" + " to " + number);
     }
 
-    @Override
-    public void heyPhoneIsCalling() {
-        System.out.println("hi!");
-
-    }
 }

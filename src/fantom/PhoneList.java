@@ -18,6 +18,6 @@ public class PhoneList {
         iphone5.call("123-45-67");
         iphone5.sendSMS("567-78-89", "text message");
         Antena antena = new Antena();
-        System.out.println(antena.getNumberOfCalls() + " " + antena.getNumberOfSMS());
+
     }
 }

@@ -21,9 +21,4 @@ public class IPhone extends Phone {
         System.out.println("IPhone class is sending sms " + message + " to " + number);
     }
 
-
-    @Override
-    public void heyPhoneIsCalling() {
-        System.out.println("hi!");
-    }
 }
