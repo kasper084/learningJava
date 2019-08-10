@@ -1,59 +1,71 @@
 package student;
 
 import java.util.ArrayList;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class StudentList {
+    private  ArrayList<Student> list = new ArrayList<>();
+    private int num;
 
-    private ArrayList<Student> list = new ArrayList<>();
-
-    public void add(Student s) {
-        list.add(s);
+    public void add(Student student) {
+        list.add(student);
+        num = list.size();
     }
 
-    public Student get(int n) {
-        return list.get(n);
+    public int getNum() {
+        System.out.println(num);
+        return num;
     }
 
-    public Student getSu(int s) {
-        return list.get(s);
-    }
-
-    public Student getDa(int c) {
-
-        return list.get(c);
-    }
-
-    public int find(String name) {
-        for(int i = 0; i < list.size(); i++) {
-            if(list.get(i).getName().equalsIgnoreCase(name))
-                return i;
+    public int findName(String name) {
+        for(int some = 0; some < num; some++) {
+            if(list.get(some).getName().equalsIgnoreCase(name)) {
+                getFullInfo(some);
+                return some;
+            }
         }
-        return -1;
+        return 0;
     }
 
-    public int findSur(String surname){
-        for(int i = 0; i < list.size(); i++) {
-            if(list.get(i).getSurname().equalsIgnoreCase(surname))
-                return i;
+    public int findSurname(String surName) {
+        for(int some = 0; some < num; some++) {
+            if(list.get(some).getSurname().equalsIgnoreCase(surName)) {
+                getFullInfo(some);
+                return some;
+            }
         }
-        return -1;
+        return 0;
     }
 
-    public int findDate(String date) throws Exception {
-        Date date1 = new SimpleDateFormat("yyyy,MM,dd").parse(date);
-        long millis1 = date1.getTime();
-
-        for(int i = 0; i < list.size(); i++) {
-            Date date2 = new SimpleDateFormat("yyyy,MM,dd").parse(list.get(i).getBirth());
-            long millis2 = date2.getTime();
-            if(millis1==millis2)
-                return i;
+    public int findDate(String date) {
+        for(int some = 0; some < num; some++) {
+            if(list.get(some).getSurname().equalsIgnoreCase(date)) {
+                getFullInfo(some);
+                return some;
+            }
         }
-        return -1;
+        return 0;
     }
-    public void rm(int rem){
-        list.remove(rem);
+
+    public void remove(String name) {
+        for(int some = 0; some < num; some++) {
+            if (list.get(some).getName().equalsIgnoreCase(name)) {
+                list.remove(some);
+                num--;
+            }
+        }
     }
+
+    public int getFullInfo(int some) {
+        String info = String.format("%s %s %s", list.get(some).getName(),
+                list.get(some).getSurname(), list.get(some).getBirth());
+        System.out.println(info);
+        return 0;
+    }
+
+    public int showFullInfo() {
+        for (int some = 0; some < num; some++)
+                getFullInfo(some);
+        return 0;
+    }
+
 }

@@ -1,14 +1,26 @@
 package student;
 
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 public class Student {
+
     private String name;
     private String surname;
-    private String birth;
+    private GregorianCalendar birth;
+    SimpleDateFormat date = new SimpleDateFormat("dd.MM.yyyy");
 
-    public Student(String name, String surname, String birth) {
+    public Student(String name, String surname, GregorianCalendar birth) {
         this.name = name;
         this.surname = surname;
         this.birth = birth;
+        birth.set(birth.get(Calendar.YEAR),birth.get(Calendar.MONTH)-1,birth.get(Calendar.DATE));
+    }
+
+    public Student(String name){
+        this.name = name;
     }
 
     public String getName() {
@@ -28,10 +40,12 @@ public class Student {
     }
 
     public String getBirth() {
-        return birth;
+        String someDate = date.format(birth.getTime());
+        return someDate;
     }
 
-    public void setBirth(String birth) {
+    public void setBirth(GregorianCalendar birth) {
         this.birth = birth;
     }
+
 }
