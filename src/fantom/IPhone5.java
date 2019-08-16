@@ -5,6 +5,7 @@ public class IPhone5 extends IPhone{
         System.out.println("IPhone5 constructor");
         screenSize = 4;
         imei = "1111111";
+        number = "0003";
     }
 
     @Override

@@ -7,6 +7,7 @@ public class Nokia3310 extends Phone {
         touch = false;
         hasWifi = false;
         screenSize = 2;
+        number = "0001";
     }
 
     @Override

@@ -9,6 +9,7 @@ public class IPhone extends Phone {
         touch = true;
         hasWifi = true;
         screenSize = 3;
+        number = "0002";
     }
 
     @Override

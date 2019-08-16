@@ -3,6 +3,7 @@ package fantom;
 public class SumsungS4 extends Phone {
     public SumsungS4() {
         System.out.println("SumsungS4 constructor");
+        number = "0004";
     }
 
     @Override
