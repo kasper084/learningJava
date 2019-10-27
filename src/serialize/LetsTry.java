@@ -2,18 +2,17 @@ package serialize;
 
 
 import java.lang.reflect.Array;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class LetsTry  {
     public static void main (String[] args) throws Exception {
         SomeClass some = new SomeClass();
-        some.setAboolean(null);
+        some.setAboolean(new AtomicBoolean(true));
         some.setTryToChangeMe("WHAT?!");
         some.setArr((int[]) Array.newInstance(int.class, some.tryToChangeMe.length()));
-        String ssc = Serialized.serialized(some);
-        String dsc = Serialized.deserialized(some);
-        System.out.println(ssc.getBytes().length +
-                "\t\\(o_o)/\t" +
-                dsc.getBytes().length);
+        Serialized.serialized(some);
+        Serialized.deserialized(some);
+
     }
 }
 
