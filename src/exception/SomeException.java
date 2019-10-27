@@ -8,6 +8,6 @@ public class SomeException extends Exception{
 
     @Override
     public String getMessage() {
-        return  "Wow\t" + super.getMessage();
+        return  "Wrong URL type: " + super.getMessage();
     }
 }
